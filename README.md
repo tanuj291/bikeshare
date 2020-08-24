@@ -1,9 +1,14 @@
-### 24/08
+### Date
+24/08
 
-### bikeshare
+### Project Name
+bikeshare
 
-### This program uses .csv files to showcase key findings from bikeshare data
+### Aim
+This program uses .csv files to showcase key findings from bikeshare data
 
-### Files sued include bikeshare.py and data (.csv)
+### files
+Files used include bikeshare.py and datafiles (.csv)
 
-### Credit given to Udacity for help and setup
+### Credit
+Credit given to Udacity for help and setup
