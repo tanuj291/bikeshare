@@ -1,3 +1,5 @@
+
+#the following code requires .csv files to read
 import time
 import pandas as pd
 import numpy as np
@@ -37,7 +39,7 @@ def get_filters():
         continue
       else:
         break
-        
+
     print("lets look Month: {}".format(month))
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 
@@ -46,10 +48,10 @@ def get_filters():
       if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'All'):
         print("Sorry. Try again.")
         continue
-      else:    
+      else:
         break
-          
-    print("lets look at {}".format(day))      
+
+    print("lets look at {}".format(day))
 
     print('-'*40)
     print('Searching using the parameters Day:'+str(day)+', MOnth:'+str(month)+' City:'+str(city))
@@ -220,7 +222,7 @@ def user_stats(df):
 
 def main():
     while True:
-        
+
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
@@ -228,11 +230,11 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
         flag=1
         start=0
         end=5
-        
+
         while(flag ==1):
             flag=int(input('\nWould you like to look at the raw data? 1 for yes 2 for no \n'))
             while((flag != 1) and (flag!=2)):
