@@ -1,15 +1,9 @@
-### Date created
-Include the date you created this project and README file.
+### 24/08
 
-### Project Title
-Replace the Project Title
+### bikeshare
 
-### Description
-Describe what your project is about and what it does
+### This program uses .csv files to showcase key findings from bikeshare data
 
-### Files used
-Include the files used
+### Files sued include bikeshare.py and data (.csv)
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+### Credit given to Udacity for help and setup
